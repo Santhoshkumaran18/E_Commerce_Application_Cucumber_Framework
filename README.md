@@ -54,23 +54,26 @@ E_Commerce_Application_Cucumber
 ├── pom.xml                         # Maven configuration
 └── README.md
 
+---
 
-# OpenCart E-Commerce Automation Framework
+## **How to Run the Tests**
 
-## 🧪 How to Run the Tests
-
-### 💡 Prerequisites
+### **💡 Prerequisites**
 - **Java 8 or above**
 - **Maven** installed
 - **Chrome/Edge/Firefox** installed
 - **IDE** (like Eclipse or IntelliJ)
 
-### 🛠️ Run from IDE
+---
+
+### **🛠️ Run from IDE**
 1. Open the project in Eclipse/IntelliJ
 2. Navigate to `TestRunner.java`
 3. Right-click and choose **Run as JUnit Test**
 
-### ▶️ Run from Command Line
+---
+
+**### ▶️ Run from Command Line**
 ```bash
 mvn clean test
 ```
@@ -80,7 +83,7 @@ mvn clean test
 
 ```properties
 browser=chrome
-url=https://demo.opencart.com
+url=https://demo.opencart.com](https://tutorialsninja.com/demo/index.php?route=common/home
 ```
 
 ## ✅ Features Implemented
@@ -136,8 +139,10 @@ Feature: User Login Feature
 ## 📝 License
 This project is licensed under the **MIT License**.
 
-## 📷 Screenshots (optional)
-Add GIFs or screenshots here if you want to showcase test run, reports, etc.
+## 📷 Screenshots
+
+**Cucumber Report**
+![image](https://github.com/user-attachments/assets/2c9a4e25-aa30-4b7b-840e-d1c3bfc1b1f7)
 
 ## 🙋‍♂️ Contact
 For queries or collaborations, feel free to reach out via **GitHub Issues** or email.
